@@ -1,0 +1,297 @@
+.white-text {
+    color: #fff;
+}
+
+.top-margin-20-por {
+    margin-top: 20%;
+}
+
+.margin-bottom {
+    margin-bottom: -20px;
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) {
+
+    .nav>li>a {
+        font-size: xx-large;
+    }
+
+    .nav>li>a {
+        color: #fff;
+    }
+
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+    }
+
+    .nav>li.active {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+        border-left: 0px;
+        -webkit-box-shadow: none;
+    }
+
+    .home-title {
+        font-size: 8em;
+    }
+
+    .home-subTitle {
+        font-size: 4em;
+    }
+
+    .table-size {
+        height: 400px;
+        width: 100%;
+    }
+
+    .text-large {
+        font-size: 2em;
+    }
+
+    .footer-margin {
+        margin-bottom: 2%;
+    }
+
+    .qlik-logo {
+        width: 30%;
+    }
+
+    .top-margin-20-por {
+        margin-top: 10%;
+    }
+
+    .bg-body {
+        background-size: 100% auto !important;
+        background-position: center top !important;
+    }
+
+    .main-container {
+        width: 100%;
+        margin-top: -20px;
+        overflow: hidden;
+
+    }
+
+    .margin-header {
+        margin-top: 50px;
+    }
+
+    .qv-collapsed-listbox .title-wrapper .title {
+        color: #fff;
+    }
+
+    .qv-st-value{
+        color: #fff;
+    }
+
+    .qv-st-header-cell-wrapper {
+        font-weight: bolder;
+    }
+
+    .lui-button{
+        color: #fff;
+    }
+
+    .qv-st-header .lui-icon--search {
+        color: #fff;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .nav>li>a {
+        font-size: xx-large;
+    }
+
+    .nav>li>a {
+        color: #fff;
+    }
+
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+    }
+
+    .nav>li.active {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+        -webkit-box-shadow: none;
+    }
+
+    .home-title {
+        font-size: 8em;
+    }
+
+    .home-subTitle {
+        font-size: 4em;
+    }
+
+    .footer-margin {
+        margin-bottom: 10%;
+    }
+
+    .table-size {
+        height: 500px;
+        width: 100%;
+    }
+
+    .text-large {
+        font-size: 1.9em;
+    }
+
+    .footer-margin {
+        margin-bottom: 3%;
+    }
+
+    .qlik-logo {
+        width: 65%;
+    }
+
+    .top-margin-20-por {
+        margin-top: 20%;
+    }
+
+    .bg-body {
+        background-size: 100% auto !important;
+        background-position: center top !important;
+    }
+
+    .main-container {
+        width: 100%;
+        overflow: hidden;
+        margin-top: -20px
+    }
+
+    .margin-header {
+        margin-top: 50px;
+    }
+
+    .qv-collapsed-listbox .title-wrapper .title {
+        color: #fff;
+    }
+
+    .qv-st-value{
+        color: #fff;
+    }
+
+    .qv-st-header-cell-wrapper {
+        font-weight: bolder;
+    }
+
+    .lui-button{
+        color: #fff;
+    }
+
+    .qv-st-header .lui-icon--search {
+        color: #fff;
+    }
+
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .nav>li>a {
+        color: #fff;
+    }
+
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+    }
+
+    .nav>li.active {
+        text-decoration: none;
+        background-color: transparent !important;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+        -webkit-box-shadow: none;
+    }
+
+    .nav-justified>li {
+        display: table-cell !important;
+        width: 1%;
+    }
+
+    .home-title {
+        font-size: 4em;
+    }
+
+    .table-size {
+        height: 400px;
+        width: 100%;
+    }
+
+    .qlik-logo {
+        width: 65%;
+    }
+
+    .top-margin-20-por {
+        margin-top: 20%;
+    }
+
+    .bg-body {
+        background-size: 140% auto !important;
+        background-position: center top !important;
+    }
+
+    .main-container {
+        width: 100%;
+        overflow: auto;
+        margin-top: -50px;
+        margin-bottom: 60px;
+    }
+
+    .bg-body {
+        width: fit-content;
+    }
+
+    .margin-header {
+        margin-top: 70px;
+    }
+
+    .qv-collapsed-listbox .title-wrapper .title {
+        color: #fff;
+    }
+
+    .qv-st-value{
+        color: #fff;
+    }
+
+    .qv-st-header-cell-wrapper {
+        font-weight: bolder;
+    }
+
+    .lui-button{
+        color: #fff;
+    }
+
+    .qv-st-header .lui-icon--search {
+        color: #fff;
+    }
+
+}
